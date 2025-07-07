@@ -1,0 +1,4 @@
+Model Name,Deployment Type,Regions Supported
+Claude 3.7 Sonnet,Cloud,us-east-1*us-east-2*us-west-2*ap-northeast-1*ap-northeast-2*ap-northeast-3*ap-south-1*ap-south-2*ap-southeast-1*ap-southeast-2*eu-central-1*eu-north-1*eu-west-1*eu-west-2eu-west-3*
+Llama 3.1 405B Instruct,Cloud,us-east-2*us-west-2
+Mistral 7B Instruct,Cloud,us-east-1us-west-2ap-south-1ap-southeast-2ca-central-1eu-west-1eu-west-2eu-west-3sa-east-1
