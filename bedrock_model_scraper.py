@@ -8,20 +8,25 @@ MODEL_NAMES = [
     "Claude 3.7 Sonnet",
     "Llama 3.1 405B Instruct",
     "Mistral 7B Instruct"
+    "Nova Lite"
+    "DeepSeek-R1"
 ]
 
 
 # Placeholder for scraping logic
-def get_model_deployment_info(model_names):
-    # TODO: Implement scraping logic for AWS Bedrock's catalog
-    # Return a list of dicts: [{"Model Name": ..., "Closed/Open": ..., "Cloud/On-Premises": ...}, ...]
-    return [{"Model Name": name, "Closed/Open": "?", "Cloud/On-Premises": "?"} for name in model_names]
+def get_model_deployment_info(model_names, catalog_models):
+    catalog_dict = {model.get("Model name", ""): model for model in catalog_models}
+    return [
+        {
+            "Model Name": name,
+            "Deployment Type": "Cloud" if catalog_dict.get(name) and catalog_dict[name].get("Regions supported", "").strip() else "?"
+        }
+        for name in model_names
+    ]
 
 def fetch_bedrock_catalog():
     url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html"
-    response = requests.get(url)
-    print("HTTP status code:", response.status_code)
-    print("First 500 characters of HTML:\n", response.text[:500])
+    response = requests.get(url, verify=False)
     return response.text
 
 def parse_bedrock_models(html):
@@ -59,13 +64,11 @@ def match_input_models(input_models, catalog_models):
             results.append({
                 "Model Name": input_name,
                 "Deployment Type": deployment_type,
-                "Regions Supported": regions
             })
         else:
             results.append({
                 "Model Name": input_name,
                 "Deployment Type": "?",
-                "Regions Supported": "?"
             })
     return results
 
@@ -87,10 +90,37 @@ def main():
     html = fetch_bedrock_catalog()
     print("\nParsing model table...")
     catalog_models = parse_bedrock_models(html)
-    results = match_input_models(MODEL_NAMES, catalog_models)
+    results = get_model_deployment_info(MODEL_NAMES, catalog_models)
     print("\nDeployment Type Table:")
     print(tabulate(results, headers="keys", tablefmt="github"))
     write_results_to_csv(results)
 #way to call 
 if __name__ == "__main__":
     main() 
+
+def get_all_model_names(html):
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table")
+    if not table:
+        return []
+    headers = [th.get_text(strip=True) for th in table.find_all("th")]
+    model_name_idx = None
+    for i, h in enumerate(headers):
+        if h.lower() == "model name":
+            model_name_idx = i
+            break
+    if model_name_idx is None:
+        print("No 'Model name' column found.")
+        return []
+    model_names = []
+    for row in table.find_all("tr")[1:]:
+        cols = row.find_all("td")
+        if cols and len(cols) > model_name_idx:
+            model_names.append(cols[model_name_idx].get_text(strip=True))
+    return model_names
+
+html = fetch_bedrock_catalog()
+all_models = get_all_model_names(html)
+print("All models in the catalog:")
+for name in all_models:
+    print("-", name)
