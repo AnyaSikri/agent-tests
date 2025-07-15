@@ -1,0 +1,71 @@
+Model name,Input modalities,Output modalities
+Jamba 1.5 Large,Text,"Text, Chat"
+Jamba 1.5 Mini,Text,"Text, Chat"
+Nova Canvas,"Text, Image",Image
+Nova Lite,"Text, Image, Video",Text
+Nova Micro,Text,Text
+Nova Premier,"Text, Image, Video",Text
+Nova Pro,"Text, Image, Video",Text
+Nova Reel,"Text, Image",Video
+Nova Reel,"Text, Image",Video
+Nova Sonic,Speech,"Speech, Text"
+Rerank 1.0,Text,Text
+Titan Embeddings G1 - Text,Text,Embedding
+Titan Image Generator G1 v2,"Text, Image",Image
+Titan Image Generator G1,"Text, Image",Image
+Titan Multimodal Embeddings G1,"Text, Image",Embedding
+Titan Text Embeddings V2,Text,Embedding
+Titan Text G1 - Express,Text,"Text, Chat"
+Titan Text G1 - Lite,Text,Text
+Titan Text G1 - Premier,Text,Text
+Claude 3 Haiku,"Text, Image","Text, Chat"
+Claude 3 Opus,"Text, Image","Text, Chat"
+Claude 3 Sonnet,"Text, Image","Text, Chat"
+Claude 3.5 Haiku,Text,"Text, Chat"
+Claude 3.5 Sonnet v2,"Text, Image","Text, Chat"
+Claude 3.5 Sonnet,"Text, Image","Text, Chat"
+Claude 3.7 Sonnet,"Text, Image","Text, Chat"
+Claude Opus 4,"Text, Image","Text, Chat"
+Claude Sonnet 4,"Text, Image","Text, Chat"
+Command Light,Text,Text
+Command R+,Text,"Text, Chat"
+Command R,Text,"Text, Chat"
+Command,Text,Text
+Embed English,Text,Embedding
+Embed Multilingual,Text,Embedding
+Rerank 3.5,Text,Text
+DeepSeek-R1,Text,Text
+Ray v2,Text,Video
+Llama 3 8B Instruct,Text,"Text, Chat"
+Llama 3 70B Instruct,Text,"Text, Chat"
+Llama 3.1 8B Instruct,Text,"Text, Chat"
+Llama 3.1 70B Instruct,Text,"Text, Chat"
+Llama 3.1 405B Instruct,Text,"Text, Chat"
+Llama 3.2 1B Instruct,Text,"Text, Chat"
+Llama 3.2 3B Instruct,Text,"Text, Chat"
+Llama 3.2 11B Instruct,"Text, Image","Text, Chat"
+Llama 3.2 90B Instruct,"Text, Image","Text, Chat"
+Llama 3.3 70B Instruct,Text,"Text, Chat"
+Llama 4 Maverick 17B Instruct,"Text, Image","Text, Chat"
+Llama 4 Scout 17B Instruct,"Text, Image","Text, Chat"
+Mistral 7B Instruct,Text,Text
+Mistral Large (24.02),Text,Text
+Mistral Large (24.07),Text,Text
+Mistral Small (24.02),Text,Text
+Mixtral 8x7B Instruct,Text,Text
+Pixtral Large (25.02),"Text, Image",Text
+Stable Diffusion 3.5 Large,"Text, Image",Image
+Stable Image Core 1.0,Text,Image
+Stable Image Ultra 1.0,Text,Image
+Palmyra X4,Text,Text
+Palmyra X5,Text,Text
+Jamba-Instruct,Text,"Text, Chat"
+Claude 2.1,Text,"Text, Chat"
+Claude 2,Text,"Text, Chat"
+Claude Instant,Text,"Text, Chat"
+Claude Instant,Text,"Text, Chat"
+Claude,Text,"Text, Chat"
+SD3 Large 1.0,"Text, Image",Image
+SDXL 1.0,"Text, Image",Image
+Stable Image Core 1.0,Text,Image
+Stable Image Ultra 1.0,Text,Image
