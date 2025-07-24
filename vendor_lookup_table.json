@@ -1,0 +1,137 @@
+{
+  "Anthropic": {
+    "formation_year": 2021,
+    "company_name": "Anthropic PBC",
+    "category": "Known Vendor"
+  },
+  "Meta": {
+    "formation_year": 2004,
+    "company_name": "Meta Platforms Inc.",
+    "category": "Known Vendor"
+  },
+  "Amazon": {
+    "formation_year": 1994,
+    "company_name": "Amazon.com Inc.",
+    "category": "Known Vendor"
+  },
+  "Google": {
+    "formation_year": 1998,
+    "company_name": "Alphabet Inc. (Google)",
+    "category": "Known Vendor"
+  },
+  "Microsoft": {
+    "formation_year": 1975,
+    "company_name": "Microsoft Corporation",
+    "category": "Known Vendor"
+  },
+  "OpenAI": {
+    "formation_year": 2015,
+    "company_name": "OpenAI LP",
+    "category": "Known Vendor"
+  },
+  "Cohere": {
+    "formation_year": 2019,
+    "company_name": "Cohere Inc.",
+    "category": "Known Vendor"
+  },
+  "AI21": {
+    "formation_year": 2017,
+    "company_name": "AI21 Labs",
+    "category": "Known Vendor"
+  },
+  "Stability": {
+    "formation_year": 2020,
+    "company_name": "Stability AI",
+    "category": "Emerging Vendor"
+  },
+  "Writer": {
+    "formation_year": 2020,
+    "company_name": "Writer Inc.",
+    "category": "Emerging Vendor"
+  },
+  "Mistral": {
+    "formation_year": 2023,
+    "company_name": "Mistral AI",
+    "category": "Emerging Vendor"
+  },
+  "DeepSeek": {
+    "formation_year": 2023,
+    "company_name": "DeepSeek",
+    "category": "Emerging Vendor"
+  },
+  "Perplexity": {
+    "formation_year": 2022,
+    "company_name": "Perplexity AI",
+    "category": "Emerging Vendor"
+  },
+  "Anyscale": {
+    "formation_year": 2022,
+    "company_name": "Anyscale Inc.",
+    "category": "Emerging Vendor"
+  },
+  "Together": {
+    "formation_year": 2022,
+    "company_name": "Together AI",
+    "category": "Emerging Vendor"
+  },
+  "Hugging Face": {
+    "formation_year": 2016,
+    "company_name": "Hugging Face Inc.",
+    "category": "Known Vendor"
+  },
+  "Databricks": {
+    "formation_year": 2013,
+    "company_name": "Databricks Inc.",
+    "category": "Known Vendor"
+  },
+  "Nvidia": {
+    "formation_year": 1993,
+    "company_name": "NVIDIA Corporation",
+    "category": "Known Vendor"
+  },
+  "Intel": {
+    "formation_year": 1968,
+    "company_name": "Intel Corporation",
+    "category": "Known Vendor"
+  },
+  "IBM": {
+    "formation_year": 1911,
+    "company_name": "International Business Machines Corporation",
+    "category": "Known Vendor"
+  },
+  "ScaleAI": {
+    "formation_year": 2016,
+    "company_name": "Scale AI Inc.",
+    "category": "Known Vendor"
+  },
+  "Adept": {
+    "formation_year": 2022,
+    "company_name": "Adept AI",
+    "category": "Established Vendor"
+  },
+  "Inflection": {
+    "formation_year": 2022,
+    "company_name": "Inflection AI",
+    "category": "Established Vendor"
+  },
+  "Character": {
+    "formation_year": 2021,
+    "company_name": "Character.AI",
+    "category": "Established Vendor"
+  },
+  "Runway": {
+    "formation_year": 2018,
+    "company_name": "Runway AI",
+    "category": "Known Vendor"
+  },
+  "Midjourney": {
+    "formation_year": 2021,
+    "company_name": "Midjourney Inc.",
+    "category": "Established Vendor"
+  },
+  "Replicate": {
+    "formation_year": 2019,
+    "company_name": "Replicate Inc.",
+    "category": "Known Vendor"
+  }
+}

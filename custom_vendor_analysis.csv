@@ -1,0 +1,6 @@
+Model Name,Vendor Name,Company Name,Formation Year,Age (Years),Vendor Category,Status
+GPT-4,OpenAI,OpenAI LP,2015,10,Known Vendor,Found in Database
+Gemini Pro,Google,Alphabet Inc. (Google),1998,27,Known Vendor,Found in Database
+Claude 3 Opus,Anthropic,Anthropic PBC,2021,4,Known Vendor,Found in Database
+Llama 3.1 70B,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Mistral Large,Mistral,Mistral AI,2023,2,Emerging Vendor,Found in Database

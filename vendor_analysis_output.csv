@@ -1,0 +1,63 @@
+Model Name,Vendor Name,Company Name,Formation Year,Age (Years),Vendor Category,Status
+Jamba 1.5 Large,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Jamba 1.5 Mini,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Nova Canvas,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Lite,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Micro,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Premier,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Pro,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Reel,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Reel,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Nova Sonic,Perplexity,Perplexity AI,2022,3,Established Vendor,Found in Database
+Rerank 1.0,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Titan Embeddings G1 - Text,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Image Generator G1 v2,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Image Generator G1,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Multimodal Embeddings G1,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Text Embeddings V2,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Text G1 - Express,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Text G1 - Lite,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Titan Text G1 - Premier,Amazon,Amazon.com Inc.,1994,31,Known Vendor,Found in Database
+Claude 3 Haiku,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3 Opus,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3 Sonnet,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3.5 Haiku,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3.5 Sonnet v2,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3.5 Sonnet,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude 3.7 Sonnet,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude Opus 4,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Claude Sonnet 4,Anthropic,Anthropic PBC,2021,4,Established Vendor,Found in Database
+Command Light,Cohere,Cohere Inc.,2019,6,Known Vendor,Found in Database
+Command R+,Cohere,Cohere Inc.,2019,6,Known Vendor,Found in Database
+Command R,Cohere,Cohere Inc.,2019,6,Known Vendor,Found in Database
+Command,Cohere,Cohere Inc.,2019,6,Known Vendor,Found in Database
+Embed English,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Embed Multilingual,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Rerank 3.5,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+DeepSeek-R1,DeepSeek,DeepSeek,2023,2,Established Vendor,Found in Database
+Ray v2,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Llama 3 8B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3 70B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.1 8B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.1 70B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.1 405B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.2 1B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.2 3B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.2 11B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.2 90B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 3.3 70B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 4 Maverick 17B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Llama 4 Scout 17B Instruct,Meta,Meta Platforms Inc.,2004,21,Known Vendor,Found in Database
+Mistral 7B Instruct,Mistral,Mistral AI,2023,2,Established Vendor,Found in Database
+Mistral Large (24.02),Mistral,Mistral AI,2023,2,Established Vendor,Found in Database
+Mistral Large (24.07),Mistral,Mistral AI,2023,2,Established Vendor,Found in Database
+Mistral Small (24.02),Mistral,Mistral AI,2023,2,Established Vendor,Found in Database
+Mixtral 8x7B Instruct,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Pixtral Large (25.02),Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Stable Diffusion 3.5 Large,Stability,Stability AI,2020,5,Known Vendor,Found in Database
+Stable Image Core 1.0,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Stable Image Ultra 1.0,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Marengo Embed v2.7,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Pegasus v1.2,Unknown,Unknown,Unknown,Unknown,Unknown,Not Found in Database
+Palmyra X4,Writer,Writer Inc.,2020,5,Known Vendor,Found in Database
+Palmyra X5,Writer,Writer Inc.,2020,5,Known Vendor,Found in Database

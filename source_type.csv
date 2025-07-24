@@ -1,0 +1,73 @@
+LLM name,Source type
+Jamba 1.5 Large,closed
+Jamba 1.5 Mini,closed
+Nova Canvas,closed
+Nova Lite,closed
+Nova Micro,closed
+Nova Premier,closed
+Nova Pro,closed
+Nova Reel,closed
+Nova Reel,closed
+Nova Sonic,closed
+Rerank 1.0,closed
+Titan Embeddings G1 - Text,closed
+Titan Image Generator G1 v2,closed
+Titan Image Generator G1,closed
+Titan Multimodal Embeddings G1,closed
+Titan Text Embeddings V2,closed
+Titan Text G1 - Express,closed
+Titan Text G1 - Lite,closed
+Titan Text G1 - Premier,closed
+Claude 3 Haiku,closed
+Claude 3 Opus,closed
+Claude 3 Sonnet,closed
+Claude 3.5 Haiku,closed
+Claude 3.5 Sonnet v2,closed
+Claude 3.5 Sonnet,closed
+Claude 3.7 Sonnet,closed
+Claude Opus 4,closed
+Claude Sonnet 4,closed
+Command Light,closed
+Command R+,closed
+Command R,closed
+Command,closed
+Embed English,closed
+Embed Multilingual,closed
+Rerank 3.5,closed
+DeepSeek-R1,unknown
+Ray v2,unknown
+Llama 3 8B Instruct,open
+Llama 3 70B Instruct,open
+Llama 3.1 8B Instruct,open
+Llama 3.1 70B Instruct,open
+Llama 3.1 405B Instruct,open
+Llama 3.2 1B Instruct,open
+Llama 3.2 3B Instruct,open
+Llama 3.2 11B Instruct,open
+Llama 3.2 90B Instruct,open
+Llama 3.3 70B Instruct,open
+Llama 4 Maverick 17B Instruct,open
+Llama 4 Scout 17B Instruct,open
+Mistral 7B Instruct,unknown
+Mistral Large (24.02),unknown
+Mistral Large (24.07),unknown
+Mistral Small (24.02),unknown
+Mixtral 8x7B Instruct,unknown
+Pixtral Large (25.02),unknown
+Stable Diffusion 3.5 Large,open
+Stable Image Core 1.0,open
+Stable Image Ultra 1.0,open
+Marengo Embed v2.7,unknown
+Pegasus v1.2,unknown
+Palmyra X4,unknown
+Palmyra X5,unknown
+Jamba-Instruct,closed
+Claude 2.1,closed
+Claude 2,closed
+Claude Instant,closed
+Claude Instant,closed
+Claude,closed
+SD3 Large 1.0,open
+SDXL 1.0,open
+Stable Image Core 1.0,open
+Stable Image Ultra 1.0,open
