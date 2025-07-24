@@ -29,7 +29,7 @@ def test_insurance_claims():
     filter_system = VendorFilter()
     
     # Get recommendations
-    recommendations = filter_system.get_vendor_recommendations(use_case)
+    recommendations = filter_system.get_recommendations(use_case)
     
     # Display results
     print(f"\n📊 RESULTS FOR: {use_case['name']}")
@@ -107,7 +107,7 @@ def test_custom_use_case():
     }
     
     filter_system = VendorFilter()
-    recommendations = filter_system.get_vendor_recommendations(custom_use_case)
+    recommendations = filter_system.get_recommendations(custom_use_case)
     
     print(f"Results for {custom_use_case['name']}:")
     print(f"Total matches: {recommendations['summary']['total_matches']}")

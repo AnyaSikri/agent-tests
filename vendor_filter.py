@@ -110,7 +110,7 @@ class VendorFilter:
         
         return filtered
     
-    def get_vendor_recommendations(self, use_case_requirements: Dict[str, Any]) -> Dict[str, Any]:
+    def get_recommendations(self, use_case_requirements: Dict[str, Any]) -> Dict[str, Any]:
         """
         Get vendor recommendations based on use case requirements
         """
