@@ -1,0 +1,79 @@
+model_name,vendor_name,formation_year,age_years,category,status,vendor_maturity
+Claude 3.7 Sonnet,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3.5 Sonnet,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3.5 Sonnet v2,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3.5 Haiku,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3 Haiku,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3 Opus,Anthropic,2021,3,AI Research,Active,emerging
+Claude 3 Sonnet,Anthropic,2021,3,AI Research,Active,emerging
+Claude Opus 4,Anthropic,2021,3,AI Research,Active,emerging
+Claude Sonnet 4,Anthropic,2021,3,AI Research,Active,emerging
+Claude 2.1,Anthropic,2021,3,AI Research,Active,emerging
+Claude 2,Anthropic,2021,3,AI Research,Active,emerging
+Claude Instant,Anthropic,2021,3,AI Research,Active,emerging
+Claude,Anthropic,2021,3,AI Research,Active,emerging
+Llama 3.1 405B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3 8B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3 70B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.1 8B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.1 70B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.2 1B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.2 3B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.2 11B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.2 90B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 3.3 70B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 4 Maverick 17B Instruct,Meta,2004,20,Technology,Active,mature
+Llama 4 Scout 17B Instruct,Meta,2004,20,Technology,Active,mature
+Mistral 7B Instruct,Mistral,2023,1,AI Research,Active,emerging
+Mistral Large (24.02),Mistral,2023,1,AI Research,Active,emerging
+Mistral Large (24.07),Mistral,2023,1,AI Research,Active,emerging
+Mistral Small (24.02),Mistral,2023,1,AI Research,Active,emerging
+Mixtral 8x7B Instruct,Mistral,2023,1,AI Research,Active,emerging
+Pixtral Large (25.02),Mistral,2023,1,AI Research,Active,emerging
+Command Light,Cohere,2019,5,AI Research,Active,established
+Command R+,Cohere,2019,5,AI Research,Active,established
+Command R,Cohere,2019,5,AI Research,Active,established
+Command,Cohere,2019,5,AI Research,Active,established
+Embed English,Cohere,2019,5,AI Research,Active,established
+Embed Multilingual,Cohere,2019,5,AI Research,Active,established
+Rerank 3.5,Cohere,2019,5,AI Research,Active,established
+Stable Diffusion 3.5 Large,Stability,2020,4,AI Research,Active,emerging
+Stable Image Core 1.0,Stability,2020,4,AI Research,Active,emerging
+Stable Image Ultra 1.0,Stability,2020,4,AI Research,Active,emerging
+SD3 Large 1.0,Stability,2020,4,AI Research,Active,emerging
+SDXL 1.0,Stability,2020,4,AI Research,Active,emerging
+Palmyra X4,Writer,2020,4,AI Research,Active,emerging
+Palmyra X5,Writer,2020,4,AI Research,Active,emerging
+Jamba 1.5 Large,AI21,2017,7,AI Research,Active,established
+Jamba 1.5 Mini,AI21,2017,7,AI Research,Active,established
+Jamba-Instruct,AI21,2017,7,AI Research,Active,established
+Nova Canvas,Amazon,1994,30,Technology,Active,mature
+Nova Lite,Amazon,1994,30,Technology,Active,mature
+Nova Micro,Amazon,1994,30,Technology,Active,mature
+Nova Premier,Amazon,1994,30,Technology,Active,mature
+Nova Pro,Amazon,1994,30,Technology,Active,mature
+Nova Reel,Amazon,1994,30,Technology,Active,mature
+Nova Sonic,Amazon,1994,30,Technology,Active,mature
+Rerank 1.0,Amazon,1994,30,Technology,Active,mature
+Titan Embeddings G1 - Text,Amazon,1994,30,Technology,Active,mature
+Titan Image Generator G1 v2,Amazon,1994,30,Technology,Active,mature
+Titan Image Generator G1,Amazon,1994,30,Technology,Active,mature
+Titan Multimodal Embeddings G1,Amazon,1994,30,Technology,Active,mature
+Titan Text Embeddings V2,Amazon,1994,30,Technology,Active,mature
+Titan Text G1 - Express,Amazon,1994,30,Technology,Active,mature
+Titan Text G1 - Lite,Amazon,1994,30,Technology,Active,mature
+Titan Text G1 - Premier,Amazon,1994,30,Technology,Active,mature
+DeepSeek-R1,DeepSeek,2023,1,AI Research,Active,emerging
+Ray v2,Luma,2021,3,AI Research,Active,emerging
+GPT-4,OpenAI,2015,9,AI Research,Active,established
+GPT-4 Turbo,OpenAI,2015,9,AI Research,Active,established
+GPT-3.5 Turbo,OpenAI,2015,9,AI Research,Active,established
+GPT-3,OpenAI,2015,9,AI Research,Active,established
+Gemini Pro,Google,1998,26,Technology,Active,mature
+Gemini Flash,Google,1998,26,Technology,Active,mature
+PaLM 2,Google,1998,26,Technology,Active,mature
+Phi-3,Microsoft,1975,49,Technology,Active,mature
+Phi-2,Microsoft,1975,49,Technology,Active,mature
+Nemotron-4,Nvidia,1993,31,Technology,Active,mature
+CodeLlama,Hugging Face,2016,8,AI Research,Active,established
+StarCoder,Hugging Face,2016,8,AI Research,Active,established

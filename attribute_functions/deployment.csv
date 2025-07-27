@@ -1,0 +1,69 @@
+Model name,Deployment type
+Jamba 1.5 Large,Cloud
+Jamba 1.5 Mini,Cloud
+Nova Canvas,Cloud
+Nova Lite,Cloud
+Nova Micro,Cloud
+Nova Premier,Cloud
+Nova Pro,Cloud
+Nova Reel,Cloud
+Nova Sonic,Cloud
+Rerank 1.0,Cloud
+Titan Embeddings G1 - Text,Cloud
+Titan Image Generator G1 v2,Cloud
+Titan Image Generator G1,Cloud
+Titan Multimodal Embeddings G1,Cloud
+Titan Text Embeddings V2,Cloud
+Titan Text G1 - Express,Cloud
+Titan Text G1 - Lite,Cloud
+Titan Text G1 - Premier,Cloud
+Claude 3 Haiku,Cloud
+Claude 3 Opus,Cloud
+Claude 3 Sonnet,Cloud
+Claude 3.5 Haiku,Cloud
+Claude 3.5 Sonnet v2,Cloud
+Claude 3.5 Sonnet,Cloud
+Claude 3.7 Sonnet,Cloud
+Claude Opus 4,Cloud
+Claude Sonnet 4,Cloud
+Command Light,Cloud
+Command R+,Cloud
+Command R,Cloud
+Command,Cloud
+Embed English,Cloud
+Embed Multilingual,Cloud
+Rerank 3.5,Cloud
+DeepSeek-R1,Cloud
+Ray v2,Cloud
+Llama 3 8B Instruct,Cloud
+Llama 3 70B Instruct,Cloud
+Llama 3.1 8B Instruct,Cloud
+Llama 3.1 70B Instruct,Cloud
+Llama 3.1 405B Instruct,Cloud
+Llama 3.2 1B Instruct,Cloud
+Llama 3.2 3B Instruct,Cloud
+Llama 3.2 11B Instruct,Cloud
+Llama 3.2 90B Instruct,Cloud
+Llama 3.3 70B Instruct,Cloud
+Llama 4 Maverick 17B Instruct,Cloud
+Llama 4 Scout 17B Instruct,Cloud
+Mistral 7B Instruct,Cloud
+Mistral Large (24.02),Cloud
+Mistral Large (24.07),Cloud
+Mistral Small (24.02),Cloud
+Mixtral 8x7B Instruct,Cloud
+Pixtral Large (25.02),Cloud
+Stable Diffusion 3.5 Large,Cloud
+Stable Image Core 1.0,Cloud
+Stable Image Ultra 1.0,Cloud
+Marengo Embed v2.7,Cloud
+Pegasus v1.2,Cloud
+Palmyra X4,Cloud
+Palmyra X5,Cloud
+Jamba-Instruct,Cloud
+Claude 2.1,Cloud
+Claude 2,Cloud
+Claude Instant,Cloud
+Claude,Cloud
+SD3 Large 1.0,Cloud
+SDXL 1.0,Cloud

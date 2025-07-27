@@ -1,0 +1,6 @@
+Model,Input Cost,Output Cost,Total Cost,Input Category,Total Category,Description
+Claude 3.7 Sonnet,$0.003000,$0.015000,$0.018000,Medium Cost,High Cost,$0.001 - $0.005 per 1K tokens
+Llama 3.1 405B Instruct,$0.000800,$0.000800,$0.001600,Low Cost,Low Cost,≤ $0.001 per 1K tokens
+Mistral 7B Instruct,$0.000150,$0.000200,$0.000350,Low Cost,Low Cost,≤ $0.001 per 1K tokens
+Nova Lite,$0.000100,$0.000100,$0.000200,Low Cost,Low Cost,≤ $0.001 per 1K tokens
+DeepSeek-R1,$0.006000,$0.006000,$0.012000,High Cost,High Cost,> $0.005 per 1K tokens

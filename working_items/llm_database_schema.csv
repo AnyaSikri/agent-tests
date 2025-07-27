@@ -1,0 +1,19 @@
+Column_Name,Data_Type,Non_Null_Count,Null_Count,Description
+model_name,object,78,0,Name of the LLM model
+vendor_name,object,78,0,Company that developed the model
+formation_year,int64,78,0,Year the vendor company was founded
+age_years,int64,78,0,Age of the vendor company in years
+category,object,78,0,Vendor company category
+status,object,78,0,Vendor company status
+vendor_maturity,object,78,0,Vendor maturity level (emerging/established/mature)
+contextwindow_Context window tokens,object,59,19,Additional model attribute
+contextwindow_Category,object,66,12,Additional model attribute
+contextwindow_Source,object,66,12,Additional model attribute
+contextwindow_Notes,object,66,12,Additional model attribute
+latency_support_type,object,0,78,Latency-related data
+modality_Input modalities,object,66,12,Input/output modality information
+modality_Output modalities,object,66,12,Input/output modality information
+modelspecificity_LLM,object,66,12,Additional model attribute
+modelspecificity_Classification,object,66,12,Additional model attribute
+modelspecificity_Matched Keywords,object,16,62,Additional model attribute
+sourcetype_Source type,object,66,12,Additional model attribute
