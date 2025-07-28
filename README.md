@@ -1,241 +1,173 @@
-# Vendor Filtering System
+# LLM Vendor Database System
 
-A comprehensive system for filtering and recommending LLM vendors based on deployment type, latency requirements, and modality needs.
+A comprehensive system for collecting, processing, and analyzing information about Large Language Model (LLM) vendors and their offerings. The system systematically captures data across multiple dimensions including technical specifications, pricing, deployment options, and vendor characteristics.
 
-## 🎯 Overview
+## Overview
 
-This system helps users find the most suitable LLM vendors by matching their specific requirements with vendor capabilities across three key dimensions:
+This system provides a structured approach to building a comprehensive database of LLM vendors by:
 
-1. **Deployment Type**: Cloud, On-premise, or Hybrid
-2. **Latency Requirements**: Real-time, Batch, or Both
-3. **Modality Support**: Input (Text, Image, Video, Speech) and Output (Text, Chat, Image, Video, Speech, Embedding)
+1. **Multi-dimensional Data Collection**: Systematic data capture across 8 attribute categories
+2. **Automated Data Processing**: Scripts for collecting and processing vendor information  
+3. **Comprehensive Database**: Unified database containing 80+ LLM models from 15+ vendors
+4. **Schema Documentation**: Automated generation of database schema documentation
+5. **Modular Architecture**: Separate modules for each data attribute
 
-## 📁 File Structure
+## File Structure
 
 ```
-├── vendor_database.py          # Creates the vendor database from CSV files
-├── user_input_example.py       # Example use cases and requirements
-├── vendor_filter.py            # Main filtering and recommendation engine
-├── demo_system.py              # Complete demo of the system
-├── README.md                   # This file
-├── deployment_types.csv        # Vendor deployment information
-├── latency_label.csv          # Vendor latency capabilities
-├── modality_output.csv        # Vendor modality support
-└── vendor_database.json       # Generated database (created by vendor_database.py)
+├── README.md                           # This file
+├── DOCUMENTATION.md                    # Comprehensive documentation
+├── working_items/                      # Database generation workspace
+│   ├── main.py                        # Simple launcher script
+│   ├── orchestrator_database.py       # Main orchestrator
+│   ├── complete_llm_database.csv      # Final unified database
+│   ├── llm_database_schema.csv        # Schema documentation
+│   └── README.md                      # Working items documentation
+└── attribute_functions/               # Data collection modules
+    ├── vendor_database.py             # Base vendor information
+    ├── cost.py                        # Pricing data collection
+    ├── context_window.py              # Context window specifications
+    ├── latency.py                     # Latency and performance data
+    ├── modality.py                    # Input/output modality support
+    ├── model_specificity.py           # Model classification data
+    ├── source_type.py                 # Data source information
+    ├── deployment_v2.py               # Deployment options
+    └── [output CSV files]             # Generated data files
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
-### 1. Create the Database
-
-First, create the vendor database by running:
+### 1. Generate the Complete Database
 
 ```bash
+cd working_items
+python orchestrator_database.py
+```
+
+This will:
+- Execute all 8 data collection modules
+- Combine all data into a unified database
+- Generate schema documentation
+- Create the final `complete_llm_database.csv`
+
+
+### 2. Run Individual Modules
+
+```bash
+cd attribute_functions
 python vendor_database.py
+python cost.py
+python context_window.py
+# ... etc for other modules
 ```
 
-This will generate `vendor_database.json` containing all vendor information.
+## Supported Vendors
 
-### 2. Run the Demo
+The system tracks data for the following vendors:
+- Anthropic (Claude models)
+- Meta (Llama models)
+- Mistral AI
+- Cohere
+- Stability AI
+- Writer
+- AI21 Labs
+- Amazon (Nova/Titan models)
+- DeepSeek
+- Luma AI
+- OpenAI
+- Google
+- Microsoft
+- Nvidia
+- Hugging Face
 
-To see the system in action:
+## Data Collection Modules
 
-```bash
-python demo_system.py
-```
+### 1. Vendor Database (`vendor_database.py`)
+Establishes the base vendor database with fundamental vendor information including model names, vendor company information, formation year, and vendor maturity level.
 
-This will demonstrate:
-- Insurance claims use case
-- Custom requirements filtering
-- Various filter combinations
-- Interactive mode for custom requirements
+### 2. Cost Analysis (`cost.py`)
+Gathers pricing information for different model tiers and usage patterns including input/output token pricing and cost per 1K tokens.
 
-## 📋 Example Use Cases
+### 3. Context Window (`context_window.py`)
+Collects context window specifications and limitations including context window size in tokens and categories.
 
-### Insurance Claims Priority Classification
+### 4. Latency Analysis (`latency.py`)
+Gathers performance and latency-related information including latency support types and response time specifications.
 
-**Requirements:**
-- **Deployment**: Cloud (for scalability and high availability)
-- **Latency**: Real-time (5-second response time)
-- **Modality**: Text input → Text output
-- **Additional**: HIPAA compliance, 1000+ claims/day
+### 5. Modality Support (`modality.py`)
+Records input and output modality capabilities including support for Text, Image, Video, Speech, and Embedding.
 
-**Example Input:**
-```
-"Patient experienced severe chest pain and shortness of breath on 2024-01-15. 
-Emergency room visit required. Diagnosis: Acute myocardial infarction. 
-Treatment: Cardiac catheterization and stent placement. Hospital stay: 5 days."
-```
+### 6. Model Specificity (`model_specificity.py`)
+Categorizes models by their specialization and use cases including General-Purpose, Domain-Specific, and Task-Specific classifications.
 
-**Expected Output:**
-```
-"Priority: HIGH - Life-threatening condition requiring immediate attention"
-```
+### 7. Source Type (`source_type.py`)
+Records data sources and licensing information including open/closed source status and licensing details.
 
-### Other Example Use Cases
+### 8. Deployment Options (`deployment_v2.py`)
+Gathers deployment and infrastructure information including Cloud, On-premise, and Hybrid deployment types.
 
-- **Customer Support Chatbot**: Real-time text conversations
-- **Legal Document Analysis**: Batch processing of text and images
-- **Marketing Content Generation**: Real-time text generation
+## Database Schema
 
-## 🔧 How to Use
+The final database (`complete_llm_database.csv`) contains comprehensive information about each LLM model including:
 
-### 1. Define Your Requirements
+- **Model Information**: Name, vendor, formation year, age, category, status
+- **Technical Specifications**: Context window size, latency support, modality capabilities
+- **Classification Data**: Model specificity, source type, deployment options
+- **Metadata**: Source URLs, notes, and additional context
 
-Create a use case dictionary with your requirements:
+### Data Quality Metrics
+- **Total Models**: 80+ LLM models
+- **Total Vendors**: 15+ companies
+- **Data Completeness**: Varies by attribute (60-95%)
+- **Update Frequency**: Manual updates as needed
+
+## Usage Examples
+
+### Basic Data Analysis
 
 ```python
-my_use_case = {
-    "name": "My Use Case",
-    "description": "Description of what you want to achieve",
-    "requirements": {
-        "deployment": {
-            "type": "Cloud",  # or "On-premise"
-            "reason": "Your reason"
-        },
-        "latency": {
-            "type": "Real-time",  # or "Batch"
-            "max_response_time": "5 seconds",
-            "reason": "Your reason"
-        },
-        "modality": {
-            "input": ["Text", "Image"],  # Supported input types
-            "output": ["Text"],          # Required output types
-            "reason": "Your reason"
-        }
-    }
-}
-```
+import pandas as pd
 
-### 2. Get Recommendations
+# Load the complete database
+df = pd.read_csv('working_items/complete_llm_database.csv')
 
-```python
-from vendor_filter import VendorFilter
+# Filter by vendor
+anthropic_models = df[df['vendor_name'] == 'Anthropic']
 
-# Initialize the filter
-filter_system = VendorFilter()
-
-# Get recommendations
-recommendations = filter_system.get_vendor_recommendations(my_use_case)
-
-# Print results
-filter_system.print_recommendations(recommendations, my_use_case['name'])
-```
-
-### 3. Apply Specific Filters
-
-```python
-# Filter by deployment type
-cloud_vendors = filter_system.filter_by_deployment('Cloud')
-
-# Filter by latency
-realtime_vendors = filter_system.filter_by_latency('real-time')
+# Filter by context window size
+large_context_models = df[df['contextwindow_Context window tokens'] >= 100000]
 
 # Filter by modality
-text_vendors = filter_system.filter_by_modality(['Text'], ['Text'])
-
-# Combine filters
-matching_vendors = filter_system.filter_vendors(
-    deployment_type='Cloud',
-    latency_requirement='real-time',
-    input_modalities=['Text'],
-    output_modalities=['Text']
-)
+multimodal_models = df[df['modality_Input modalities'].str.contains('Image', na=False)]
 ```
 
-## 📊 Database Structure
+### Custom Data Collection
 
-The vendor database contains entries with the following structure:
+To add new data sources or modify existing ones:
 
-```json
-{
-  "model_name": "Claude 3.7 Sonnet",
-  "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-  "deployment_type": "Cloud",
-  "latency_support": "real-time only",
-  "input_modalities": "Text, Image",
-  "output_modalities": "Text, Chat"
-}
-```
+1. Edit the relevant module in `attribute_functions/`
+2. Update data sources in the module
+3. Run the specific module to test changes
+4. Re-run the orchestrator to regenerate the complete database
 
-## 🎯 Recommendation Scoring
+## Installation
 
-The system categorizes recommendations into:
+### Prerequisites
+- Python 3.7 or higher
+- pandas library
+- Internet connection for data collection
 
-- **Perfect Matches** (Score ≥ 0.9): Meet all requirements exactly
-- **Good Matches** (Score ≥ 0.7): Meet most requirements with minor considerations
-- **Partial Matches** (Score < 0.7): Meet some requirements but may need additional configuration
+### Adding New Data Sources
 
-## 🔍 Supported Filters
+1. Create a new module in `attribute_functions/`
+2. Follow the module structure outlined in the documentation
+3. Add the module to the `MODULES` list in `orchestrator_database.py`
+4. Update the `OUTPUT_FILES` dictionary
+5. Test the integration
 
-### Deployment Types
-- Cloud
-- On-premise
-- Any (no filter)
+### Extending the Database
 
-### Latency Requirements
-- Real-time
-- Batch
-- Both
-- Any (no filter)
-
-### Modalities
-**Input:**
-- Text
-- Image
-- Video
-- Speech
-
-**Output:**
-- Text
-- Chat
-- Image
-- Video
-- Speech
-- Embedding
-
-## 🛠️ Customization
-
-### Adding New Vendors
-
-1. Update the CSV files (`deployment_types.csv`, `latency_label.csv`, `modality_output.csv`)
-2. Run `vendor_database.py` to regenerate the database
-
-### Extending the Filter
-
-Add new filtering methods to the `VendorFilter` class in `vendor_filter.py`:
-
-```python
-def filter_by_new_criteria(self, criteria_value):
-    # Your custom filtering logic
-    pass
-```
-
-## 📝 Dependencies
-
-- Python 3.7+
-- pandas
-- json (built-in)
-- typing (built-in)
-
-## 🤝 Contributing
-
-To add new features or improve the system:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test with the demo system
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🆘 Support
-
-For questions or issues, please check the demo system first, then create an issue with:
-- Your use case requirements
-- Expected behavior
-- Actual behavior
-- Error messages (if any) 
+Add new filtering methods or analysis capabilities by:
+- Creating new analysis scripts
+- Extending existing modules
+- Adding new data attributes to the schema
